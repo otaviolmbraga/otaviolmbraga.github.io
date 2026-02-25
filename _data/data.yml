@@ -76,7 +76,8 @@ about_me:
 working_papers:
   - title: "Property Taxes and the Capitalization Channel: A Spatial Discontinuity Approach"
     coauthors:
-     - name: '<a href="https://bbomikang.github.io" target="_blank">Bomi Kang</a>' 
+     - name: "Bomi Kang"
+       url: "https://bbomikang.github.io"
     summary: ""
     Presentation: ""
     
