@@ -13,7 +13,12 @@
       {% if work.coauthors %} <!-- Check if there are co-authors -->
         <small>(with
           {% for coauthor in work.coauthors %}
-            <a href="{{ coauthor.url }}" target="_blank">{{ coauthor.name }}</a>{% unless forloop.last %}, {% endunless %}
+            {% if coauthor.url %}
+              <a href="{{ coauthor.url }}" target="_blank">{{ coauthor.name }}</a>
+            {% else %}
+              {{ coauthor.name }}
+            {% endif %}
+            {% unless forloop.last %}, {% endunless %}
           {% endfor %}
         )</small>
       {% endif %}
