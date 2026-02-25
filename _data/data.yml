@@ -10,12 +10,12 @@ sidebar:
   # Profile information
   name: Otavio Braga
   tagline: Economics PhD Candidate
-  avatar: bomi.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: otavio_pic.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: otavio.braga@duke.edu
   website: otaviolmbraga.github.io 
-  linkedin: bomikang1
+  linkedin: otaviolmbraga
 
   #pdf: '/assets/files/cv.pdf'  # Path to the CV PDF
 
@@ -24,13 +24,14 @@ sidebar:
     title: Research Interests
     info:
       - item: Household Finance
-      - item: Macroeconomics
+      - item: Real Estate
+      - item: Empirical Macroeconomics
 
   # References
   references:
     title: References
     info:
-      - name: Five Guys
+      - name: David Berger
         affiliation: Duke University
       
   # Main content areas
@@ -40,12 +41,12 @@ education:
   - degree: Ph.D. in Economics
     university: Duke University
     time: 2021-2027 (expected)
-  - degree: MA in Economics
-    university: USP
-    time: 2021
-  - degree: BA in Economics
-    university: USP
-    time: 2019
+  - degree: M.Sc. in Economics
+    university: FGV - São Paulo School of Economics
+    time: 2020
+  - degree: B.A. in Economics
+    university: University of São Paulo
+    time: 2016
 
 experiences:
   title: Experiences
