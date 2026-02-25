@@ -28,11 +28,11 @@ sidebar:
       - item: Empirical Macroeconomics
 
   # References
-  references:
-    title: References
-    info:
-      - name: David Berger
-        affiliation: Duke University
+  #references:
+  #  title: References
+  #  info:
+  #    - name: David Berger
+  #      affiliation: Duke University
       
   # Main content areas
 education:
@@ -72,7 +72,7 @@ computational-skills:
       level: Advanced
 
 about_me:
-  content: "Welcome! I am OTAVIO"
+  content: "Welcome!"
   
 working_papers:
   - title: "Property Taxes and the Capitalization Channel: A Spatial Discontinuity Approach"
