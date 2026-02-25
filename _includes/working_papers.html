@@ -9,6 +9,18 @@
   {% for paper in site.data.data.working_papers %}
   <div class="item">
     <h3 class="job-title">{{ paper.title }}</h3>
+    {% if paper.coauthors %}
+    <p>with
+      {% for coauthor in paper.coauthors %}
+        {% if coauthor.url %}
+          <a href="{{ coauthor.url }}" target="_blank">{{ coauthor.name }}</a>
+        {% else %}
+          {{ coauthor.name }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+    {% endif %}
     <div class="details">
       <a href="#" onclick="toggleAbstract('wpAbstract{{ forloop.index }}'); return false;">[Abstract]</a>
       <p id="wpAbstract{{ forloop.index }}" style="display:none;">
