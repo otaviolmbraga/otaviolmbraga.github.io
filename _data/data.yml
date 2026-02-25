@@ -8,13 +8,13 @@ sidebar:
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Bomi Kang
+  name: Otavio Braga
   tagline: Economics PhD Candidate
   avatar: bomi.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: bomi.kang@duke.edu
-  website: bbomikang.github.io 
+  email: otavio.braga@duke.edu
+  website: otaviolmbraga.github.io 
   linkedin: bomikang1
 
   #pdf: '/assets/files/cv.pdf'  # Path to the CV PDF
@@ -23,16 +23,14 @@ sidebar:
   interests:
     title: Research Interests
     info:
-      - item: Housing
-      - item: Real Estate
-      - item: Industrial Organization
-      - item: Finance
+      - item: Household Finance
+      - item: Macroeconomics
 
   # References
   references:
     title: References
     info:
-      - name: Daniel Yi Xu
+      - name: Five Guys
         affiliation: Duke University
       
   # Main content areas
@@ -41,12 +39,12 @@ education:
   info:
   - degree: Ph.D. in Economics
     university: Duke University
-    time: 2021-2026 (expected)
+    time: 2021-2027 (expected)
   - degree: MA in Economics
-    university: Yonsei University
+    university: USP
     time: 2021
   - degree: BA in Economics
-    university: Yonsei University
+    university: USP
     time: 2019
 
 experiences:
@@ -57,41 +55,34 @@ experiences:
       company: Duke University
       location: Durham, NC
       details: ""
-    - role: Economist Intern
-      time: May 2025 - August 2025
-      company: Amazon
-      location: New York, NY
-      details: ""
 
 languages:
   title: Languages
   info:
     - idiom: English
       level: Fluent
-    - idiom: Korean  
+    - idiom: Portuguese  
       level: Native
 
 computational-skills:
   title: Computational Skills
   toolset:
-    - name: Python, R, SQL, Stata, Matlab
+    - name: Python, Matlab, R, Stata
       level: Advanced
 
 about_me:
-  content: "Welcome! I am a Ph.D. candidate in Economics at Duke University. I study the housing market as an interconnected system spanning homeowners, lenders, investors, and the secondary market for mortgage-backed securities. My research uses causal inference and structural modeling to examine how policies and financial structures shape housing prices, mobility, and risk.<br> Feel free to reach me at: bomi.kang (at) duke (dot) edu."
+  content: "Welcome! I am OTAVIO"
   
 working_papers:
   - title: "Property Taxes and the Capitalization Channel: A Spatial Discontinuity Approach"
     coauthors:
-      - name: "Otavio Braga"
+      - name: "Bomi Kang"
     summary: ""
     Presentation: ""
     
 works_in_progress:
-  - title: "Vertical Integration and Mortgage Backed Securities"    
-    summary: ""
-    Presentation: ""
-
   - title: "Reassessing Risk in Housing Markets: The Role of Selection"    
+    coauthors:
+      - name: "Bomi Kang"
     summary: ""
     Presentation: ""
