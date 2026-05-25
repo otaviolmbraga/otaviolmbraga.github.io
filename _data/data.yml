@@ -40,13 +40,13 @@ education:
   info:
   - degree: Ph.D. in Economics
     university: Duke University
-    time: 2021-2027 (expected)
+    time: 2021-(2027)
   - degree: M.Sc. in Economics
     university: FGV - São Paulo School of Economics
-    time: 2020
+    time: 2018-2020
   - degree: B.A. in Economics
     university: University of São Paulo
-    time: 2016
+    time: 2013-2016
 
 experiences:
   title: Experiences
@@ -72,20 +72,20 @@ computational-skills:
       level: Advanced
 
 about_me:
-  content: "Welcome!"
+  content: "Welcome! I'm a PhD candidate in Economics at Duke University. My research interests span topics in household finance, real estate and empirical macroeconomics. "
   
 working_papers:
-  - title: "Property Taxes and the Capitalization Channel: A Spatial Discontinuity Approach"
+  - title: "Property Taxes and Residential Mobility: Evidence from São Paulo"
     coauthors:
      - name: "Bomi Kang"
        url: "https://bbomikang.github.io"
-    summary: ""
-    Presentation: ""
+    #summary: ""
+    #Presentation: ""
     
 works_in_progress:
   - title: "Reassessing Risk in Housing Markets: The Role of Selection"    
     coauthors:
       - name: "Bomi Kang"
         url: "https://bbomikang.github.io"
-    summary: ""
-    Presentation: ""
+    #summary: ""
+    #Presentation: ""
