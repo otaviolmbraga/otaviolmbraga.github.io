@@ -62,7 +62,7 @@ computational-skills:
       level: Advanced
 
 about_me:
-  content: "Welcome! I'm a PhD candidate in Economics at Duke University. My research interests span topics in household finance, real estate and empirical macroeconomics. In my work, I combine large administrative datasets, randomized experiments, and theoretical models to study household behavior in credit and housing markets."
+  content: "Welcome! I'm a PhD candidate in Economics at Duke University. My research interests span topics in household finance, real estate and empirical macroeconomics. <br><br> In my work, I combine large administrative datasets, randomized experiments, and theoretical models to study household behavior in credit and housing markets."
   
 working_papers:
   - title: "Property Taxes and Residential Mobility: Evidence from Tax Reforms in São Paulo"
