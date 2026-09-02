@@ -48,15 +48,6 @@ education:
     university: University of São Paulo
     time: 2013-2016
 
-experiences:
-  title: Experiences
-  info:
-    - role: Research/Teaching Assistant
-      time: August 2022 - 
-      company: Duke University
-      location: Durham, NC
-      details: ""
-
 languages:
   title: Languages
   info:
@@ -75,17 +66,13 @@ about_me:
   content: "Welcome! I'm a PhD candidate in Economics at Duke University. My research interests span topics in household finance, real estate and empirical macroeconomics. "
   
 working_papers:
-  - title: "Property Taxes and Residential Mobility: Evidence from São Paulo"
+  - title: "Property Taxes and Residential Mobility: Evidence from Tax Reforms in São Paulo"
     coauthors:
      - name: "Bomi Kang"
        url: "https://bbomikang.github.io"
-    #summary: ""
-    #Presentation: ""
     
 works_in_progress:
   - title: "Reassessing Risk in Housing Markets: The Role of Selection"    
     coauthors:
       - name: "Bomi Kang"
         url: "https://bbomikang.github.io"
-    #summary: ""
-    #Presentation: ""
