@@ -22,10 +22,6 @@
     </p>
     {% endif %}
     <div class="details">
-      <a href="#" onclick="toggleAbstract('wpAbstract{{ forloop.index }}'); return false;">[Abstract]</a>
-      <p id="wpAbstract{{ forloop.index }}" style="display:none;">
-        {{ paper.summary }}
-      </p>
       {% if paper.pdf %}
       <a href="{{ paper.pdf }}" target="_blank">[Paper]</a>
       {% endif %}
