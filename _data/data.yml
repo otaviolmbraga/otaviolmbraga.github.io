@@ -14,8 +14,8 @@ sidebar:
 
   # Sidebar links
   email: otavio.braga@duke.edu
-  pdf: '/assets/cv.pdf'  # Path to the CV PDF
   linkedin: otaviolmbraga
+  Curriculum Vitae: '/assets/cv.pdf'  # Path to the CV PDF
 
   
   # Research Interests
