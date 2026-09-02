@@ -65,6 +65,18 @@ about_me:
   content: "Welcome! I'm a PhD candidate in Economics at Duke University. My research interests span topics in household finance, real estate and empirical macroeconomics. <br><br> In my work, I combine large administrative datasets, randomized experiments, and theoretical models to study household behavior in credit and housing markets."
   
 working_papers:
+  - title: "Inflation Beliefs and the Indexation of Household Debt (JMP)"
+    coauthors:
+     - name: "João Pugliese"
+       url: "https://joaofpugliese.github.io/"
+     - name: "Lucas Iten"
+
+  - title: "Misperceptions and Redistribution: Evidence from Brazilian Consorcios"
+    coauthors:
+     - name: "João Pugliese"
+       url: "https://joaofpugliese.github.io/"
+     - name: "Lucas Iten"
+     
   - title: "Property Taxes and Residential Mobility: Evidence from Tax Reforms in São Paulo"
     coauthors:
      - name: "Bomi Kang"
