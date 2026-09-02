@@ -14,11 +14,10 @@ sidebar:
 
   # Sidebar links
   email: otavio.braga@duke.edu
-  website: otaviolmbraga.github.io 
+  pdf: '/assets/files/cv.pdf'  # Path to the CV PDF
   linkedin: otaviolmbraga
 
-  #pdf: '/assets/files/cv.pdf'  # Path to the CV PDF
-
+  
   # Research Interests
   interests:
     title: Research Interests
