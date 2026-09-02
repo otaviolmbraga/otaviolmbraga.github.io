@@ -8,26 +8,20 @@
   </h2>
   {% for work in site.data.data.works_in_progress %}
   <div class="item">
-    <h3 class="job-title">
-      {{ work.title }}
-      {% if work.coauthors %} <!-- Check if there are co-authors -->
-        <small>(with
-          {% for coauthor in work.coauthors %}
-            {% if coauthor.url %}
-              <a href="{{ coauthor.url }}" target="_blank">{{ coauthor.name }}</a>
-            {% else %}
-              {{ coauthor.name }}
-            {% endif %}
-            {% unless forloop.last %}, {% endunless %}
-          {% endfor %}
-        )</small>
-      {% endif %}
-    </h3>
+    <h3 class="job-title">{{ work.title }}</h3>
+    {% if work.coauthors %}
+    <p>with
+      {% for coauthor in work.coauthors %}
+        {% if coauthor.url %}
+          <a href="{{ coauthor.url }}" target="_blank">{{ coauthor.name }}</a>
+        {% else %}
+          {{ coauthor.name }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+    {% endif %}
     <div class="details">
-      <a href="#" onclick="toggleAbstract('wipAbstract{{ forloop.index }}'); return false;">[Abstract]</a>
-      <p id="wipAbstract{{ forloop.index }}" style="display:none;">
-        {{ work.summary }}
-      </p>
       {% if work.pdf %}
       <a href="{{ work.pdf }}" target="_blank">[Paper]</a>
       {% endif %}
