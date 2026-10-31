@@ -10,7 +10,11 @@
   <div class="item" style="margin-bottom: 30px;">
     <h3 class="job-title"><strong>{{ paper.title }}</strong></h3>
     {% if paper.label %}
-    <p style="margin-bottom: 4px;"><strong>[{{ paper.label }}]</strong></p>
+      {% if paper.highlight %}
+      <p style="margin-bottom: 4px; color: #00338C; font-weight: bold;">{{ paper.label }}</p>
+      {% else %}
+      <p style="margin-bottom: 4px; color: #888; font-style: italic; font-size: 0.9em;">{{ paper.label }}</p>
+      {% endif %}
     {% endif %}
     {% if paper.coauthors %}
     <p>with {% for coauthor in paper.coauthors %}{% if coauthor.url %}<a href="{{ coauthor.url }}" target="_blank">{{ coauthor.name }}</a>{% else %}{{ coauthor.name }}{% endif %}{% unless forloop.last %} and {% endunless %}{% endfor %}</p>
