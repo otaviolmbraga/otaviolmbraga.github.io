@@ -65,15 +65,17 @@ about_me:
   content: "Welcome! I'm a PhD candidate in Economics at Duke University. My research interests span topics in household finance, real estate and empirical macroeconomics. <br><br> In my work, I combine large administrative datasets, randomized experiments, and theoretical models to study household behavior in credit and housing markets.<br><br><b>I am on the 2026-27 job market.</b>"
 
 working_papers:
-  - title: "Inflation Beliefs and the Indexation of Household Debt [JMP]"
+  - title: "Inflation Beliefs and the Indexation of Household Debt"
+    label: "[Job Market Paper]"
+    highlight: true
     coauthors:
      - name: "João Pugliese"
        url: "https://joaofpugliese.github.io/"
      - name: "Lucas Iten"
        url: "https://www.bcb.gov.br/en/publications/bcb-researchers-detail/lucas.teixeira"
 
-   - title: "Consumer Misperceptions and Redistribution in Financial Products: Evidence from Brazilian Consórcios"
-    label: "João Pugliese's Job Market Paper"
+  - title: "Consumer Misperceptions and Redistribution in Financial Products: Evidence from Brazilian Consórcios"
+    label: "[João's Job Market Paper]"
     pdf: "https://joaofpugliese.github.io/assets/pdf/jmp.pdf"
     coauthors:
      - name: "João Pugliese"
