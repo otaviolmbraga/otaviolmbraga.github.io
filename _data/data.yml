@@ -66,7 +66,7 @@ about_me:
 
 working_papers:
   - title: "Inflation Beliefs and the Indexation of Household Debt"
-    label: "[Job Market Paper]"
+    label: "Job Market Paper"
     highlight: true
     coauthors:
      - name: "João Pugliese"
@@ -75,7 +75,7 @@ working_papers:
        url: "https://www.bcb.gov.br/en/publications/bcb-researchers-detail/lucas.teixeira"
 
   - title: "Consumer Misperceptions and Redistribution in Financial Products: Evidence from Brazilian Consórcios"
-    label: "[João's Job Market Paper]"
+    label: "João's Job Market Paper"
     pdf: "https://joaofpugliese.github.io/assets/pdf/jmp.pdf"
     coauthors:
      - name: "João Pugliese"
