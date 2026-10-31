@@ -72,17 +72,25 @@ working_papers:
      - name: "Lucas Iten"
        url: "https://www.bcb.gov.br/en/publications/bcb-researchers-detail/lucas.teixeira"
 
-  - title: "Misperceptions and Redistribution: Evidence from Brazilian Consorcios"
+   - title: "Consumer Misperceptions and Redistribution in Financial Products: Evidence from Brazilian Consórcios"
+    label: "João Pugliese's Job Market Paper"
+    pdf: "https://joaofpugliese.github.io/assets/pdf/jmp.pdf"
     coauthors:
      - name: "João Pugliese"
        url: "https://joaofpugliese.github.io/"
      - name: "Lucas Iten"
        url: "https://www.bcb.gov.br/en/publications/bcb-researchers-detail/lucas.teixeira"
-     
+    abstract: >-
+      Financial innovations may expand access to credit, but also introduce complexity that leads to consumer losses and redistribution across consumers. We study consórcios, a group savings-and-credit product accounting for 25% of new vehicle credit in Brazil. Consumers pool monthly payments and receive funding through lotteries or bids, allowing consumers with liquidity to obtain funding earlier at the expense of others. Using administrative data covering 59 million contracts and a survey of 1,296 consumers, we document four facts. First, 81% of contracts lose money relative to saving and borrowing in the market. Second, losses are regressive. Third, firms' allocation decisions favor bidding, which can improve expected returns, while consumers waiting for lotteries face long waits and large expected losses. Fourth, consumers overestimate chances of receiving funding early through lotteries. These findings challenge explanations of participation in group savings products based on commitment and suggest that misperceptions about allocation probabilities may help sustain regressive contract designs. In a randomized information experiment, disclosing true lottery probabilities increases liquidity-constrained consumers' willingness to forgo a real bonus for access to groups with more lotteries, but has no corresponding effect among consumers able to bid. Our findings show that correcting misperceptions can differentially affect demand across consumer types, with possible implications for market composition and redistribution.
+
   - title: "Property Taxes and Residential Mobility: Evidence from Tax Reforms in São Paulo"
+    pdf: "/assets/Braga_Kang_PropertyTax.pdf"
     coauthors:
      - name: "Bomi Kang"
        url: "https://bbomikang.github.io"
+    abstract: >-
+      Property taxes are a key policy tool that shapes housing markets, affecting affordability, homeownership, and residential sorting. When property taxes rise, do existing homeowners respond by moving, and if so, who moves? We study this question using São Paulo's 2014 property tax reform, which generated substantial variation in tax changes among properties on the same city block. Within-block comparisons allow us to estimate the effect of tax increases on mobility without the endogeneity that arises when tax variation reflects differences in the provision of local public goods. We find that property tax increases induce residential mobility. Furthermore, linking property records to matched employer-employee data, we find heterogeneity in the mobility response by owner characteristics, with the effect concentrated among older owners. Our results provide the first causal evidence on who is responding to property tax increases and the first evidence on tax-induced mobility in a developing country.
+
     
 works_in_progress:
   - title: "Reassessing Risk in Housing Markets: The Role of Selection"    
