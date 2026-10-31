@@ -9,16 +9,21 @@
   {% for paper in site.data.data.working_papers %}
   <div class="item" style="margin-bottom: 30px;">
     <h3 class="job-title"><strong>{{ paper.title }}</strong></h3>
+    {% if paper.label %}
+    <p style="margin-bottom: 4px;"><strong>[{{ paper.label }}]</strong></p>
+    {% endif %}
     {% if paper.coauthors %}
     <p>with {% for coauthor in paper.coauthors %}{% if coauthor.url %}<a href="{{ coauthor.url }}" target="_blank">{{ coauthor.name }}</a>{% else %}{{ coauthor.name }}{% endif %}{% unless forloop.last %} and {% endunless %}{% endfor %}</p>
     {% endif %}
     <div class="details">
+      {% if paper.abstract %}
+      <a href="#" onclick="toggleAbstract('wp-abstract-{{ forloop.index }}'); return false;">[Abstract]</a>
+      {% endif %}
       {% if paper.pdf %}
       <a href="{{ paper.pdf }}" target="_blank">[Paper]</a>
       {% endif %}
-      {% if paper.Presentation %}
-      <br>
-      <p><strong>Presentation:</strong> {{ paper.Presentation }}</p>
+      {% if paper.abstract %}
+      <p id="wp-abstract-{{ forloop.index }}" style="display:none; margin-top: 10px; text-align: justify;">{{ paper.abstract }}</p>
       {% endif %}
     </div><!--//details-->
   </div><!--//item-->
