@@ -68,11 +68,14 @@ working_papers:
   - title: "Inflation Beliefs and the Indexation of Household Debt"
     label: "Job Market Paper"
     highlight: true
+    pdf: "/assets/jmp.pdf"
     coauthors:
      - name: "João Pugliese"
        url: "https://joaofpugliese.github.io/"
      - name: "Lucas Iten"
        url: "https://www.bcb.gov.br/en/publications/bcb-researchers-detail/lucas.teixeira"
+    abstract: >-
+      Economic theory dictates that inflation beliefs should shape household financial decisions, but establishing this link empirically has been a central challenge. We argue that such difficulty can be partly explained by the fact that many households do not understand their own financial exposure to inflation. To show this, we study households holding inflation-indexed debt, whose contracts establish a one-to-one relation between inflation and the growth of their nominal payments. In a survey experiment with Brazilian borrowers, we separately elicit forecasts for inflation and installments. Most respondents underestimate their own exposure, expecting payments below what their inflation forecasts imply. We cross-randomize two independent treatments informing respondents about (i) historical inflation and (ii) the payment increase implied by their own inflation forecast. We find that shifts in inflation beliefs affect households' financial planning only when paired with (ii), which makes their payment consequences explicit; (i) alone revises forecasts but leaves planning unchanged. Finally, we calibrate a consumption-savings model to show that borrowers tolerate inflation exposure in their indexed debt far more than the rational benchmark predicts, even after accounting for possibly biased inflation beliefs and the underestimation of their future debt burden.
 
   - title: "Consumer Misperceptions and Redistribution in Financial Products: Evidence from Brazilian Consórcios"
     label: "João's Job Market Paper"
