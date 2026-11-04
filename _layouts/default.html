@@ -21,6 +21,17 @@
 {% include scripts.html %}
 <script data-goatcounter="https://olmbgc.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<script>
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a');
+    if (!a || !window.goatcounter || !window.goatcounter.count) return;
+    window.goatcounter.count({
+      path:  a.getAttribute('href'),
+      title: a.textContent.trim().slice(0, 80),
+      event: true,
+    });
+  });
+</script>
 </body>
 
 </html>
