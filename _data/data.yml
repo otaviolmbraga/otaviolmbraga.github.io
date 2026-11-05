@@ -108,4 +108,4 @@ public_goods:
   - title: "São Paulo Repeat-Sales Housing Index (IIVR-SP)"
     url: "/sp-housing-index/"
     description: >-
-      Open housing data for the city of São Paulo: 2.6 million ITBI property-transfer tax records, published by the municipal government and cleaned into a monthly repeat-sales house price index covering 2010–2025. The transaction microdata, the index series and the methodology note are all free to download.
+      Open housing transaction data for the city of São Paulo: 2.6 million property-transfer tax records, published by the city government, compiled and cleaned into a monthly repeat-sales house price index covering 2010–2025. The transaction microdata and the index series are all available to download.
