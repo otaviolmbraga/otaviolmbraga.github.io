@@ -105,7 +105,7 @@ works_in_progress:
 
 
 public_goods:
-  - title: "IIVR-SP — São Paulo Repeat-Sales Housing Index"
+  - title: "São Paulo Repeat-Sales Housing Index (IIVR-SP)"
     url: "/sp-housing-index/"
     description: >-
       A monthly house price index for the city of São Paulo, built with the repeat-sales (Case-Shiller) method from 2.6 million property-transfer tax records. Unlike listing-based indices, it tracks prices across successive sales of the same property. The page is interactive and the cleaned transaction data are free to download.
