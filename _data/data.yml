@@ -103,8 +103,7 @@ works_in_progress:
       - name: "Bomi Kang"
         url: "https://bbomikang.github.io"
 
-
 public_goods:
-  - title: "IIVR-SP: São Paulo Repeat-Sales Housing Index"
+  - title: "São Paulo Repeat-Sales Housing Index (IIVR-SP)"
     url: "/sp-housing-index/"
-    description: "A monthly repeat-sales house price index for the city of São Paulo, built from ITBI property-transfer records (2010–2025). The page compares it with IPCA, CDI, FipeZAP and the Ibovespa, and makes the cleaned transaction data available for download."
+    description: "A monthly index of São Paulo house prices built from 2.6 million property-transfer records, with interactive charts and open data."
