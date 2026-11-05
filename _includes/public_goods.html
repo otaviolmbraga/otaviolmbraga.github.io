@@ -8,18 +8,13 @@
   </h2>
   {% for good in site.data.data.public_goods %}
   <div class="item" style="margin-bottom: 30px;">
-    <h3 class="job-title"><strong>{{ good.title }}</strong></h3>
+    <h3 class="job-title"><strong><a href="{{ good.url }}" target="_blank">{{ good.title }}</a></strong></h3>
+    {% if good.description %}
     <div class="details">
-      {% if good.description %}
       <a href="#" onclick="toggleAbstract('pg-desc-{{ forloop.index }}'); return false;">[Description]</a>
-      {% endif %}
-      {% for link in good.links %}
-      <a href="{{ link.url }}" target="_blank">[{{ link.label }}]</a>
-      {% endfor %}
-      {% if good.description %}
       <p id="pg-desc-{{ forloop.index }}" style="display:none; margin-top: 10px; text-align: justify;">{{ good.description }}</p>
-      {% endif %}
     </div><!--//details-->
+    {% endif %}
   </div><!--//item-->
   {% endfor %}
 </section><!--//section-->
