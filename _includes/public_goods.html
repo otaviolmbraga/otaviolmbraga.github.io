@@ -1,0 +1,28 @@
+<section class="section public-goods-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-database fa-stack-1x fa-inverse"></i>
+    </span>
+    Public Goods
+  </h2>
+  {% for good in site.data.data.public_goods %}
+  <div class="item" style="display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; margin-bottom:30px;">
+    {% if good.image %}
+    <a href="{{ good.url }}" style="flex:0 0 220px; max-width:100%;">
+      <img src="{{ good.image }}" alt="{{ good.title }}"
+           style="width:100%; border-radius:6px; border:1px solid #e5e5e5; display:block;">
+    </a>
+    {% endif %}
+    <div style="flex:1 1 260px; min-width:0;">
+      <h3 class="job-title"><strong><a href="{{ good.url }}">{{ good.title }}</a></strong></h3>
+      <p style="margin:6px 0 8px;">{{ good.blurb }}</p>
+      <div class="details">
+        {% for link in good.links %}
+        <a href="{{ link.url }}">[{{ link.label }}]</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div><!--//item-->
+  {% endfor %}
+</section><!--//section-->
